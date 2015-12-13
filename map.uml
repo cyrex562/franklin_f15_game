@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>edu.franklin.practicum.f15.strategygame.map</OriginalElement>
+  <nodes>
+    <node x="42.5" y="78.0">edu.franklin.practicum.f15.strategygame.map.MapInfo</node>
+    <node x="160.25" y="0.0">edu.franklin.practicum.f15.strategygame.map.Item</node>
+    <node x="136.5" y="78.0">edu.franklin.practicum.f15.strategygame.map.HexTile</node>
+    <node x="113.95238095238095" y="156.0">edu.franklin.practicum.f15.strategygame.map.MapManager</node>
+    <node x="0.0" y="0.0">edu.franklin.practicum.f15.strategygame.map.RandomEncounter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.franklin.practicum.f15.strategygame.map.HexTile" target="edu.franklin.practicum.f15.strategygame.map.RandomEncounter">
+      <point x="-17.25" y="-14.0" />
+      <point x="153.75" y="48.0" />
+      <point x="101.66666666666666" y="48.0" />
+      <point x="40.66666666666666" y="14.0" />
+    </edge>
+    <edge source="edu.franklin.practicum.f15.strategygame.map.MapManager" target="edu.franklin.practicum.f15.strategygame.map.HexTile">
+      <point x="0.0" y="-14.0" />
+      <point x="161.95238095238096" y="131.0" />
+      <point x="171.0" y="131.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="edu.franklin.practicum.f15.strategygame.map.MapManager" target="edu.franklin.practicum.f15.strategygame.map.RandomEncounter">
+      <point x="-32.0" y="-14.0" />
+      <point x="129.95238095238096" y="131.0" />
+      <point x="16.452380952380935" y="131.0" />
+      <point x="16.452380952380935" y="58.0" />
+      <point x="20.333333333333343" y="58.0" />
+      <point x="-40.66666666666666" y="14.0" />
+    </edge>
+    <edge source="edu.franklin.practicum.f15.strategygame.map.MapInfo" target="edu.franklin.practicum.f15.strategygame.map.RandomEncounter">
+      <point x="-18.5" y="-14.0" />
+      <point x="-7.105427357601002E-15" y="14.0" />
+    </edge>
+    <edge source="edu.franklin.practicum.f15.strategygame.map.HexTile" target="edu.franklin.practicum.f15.strategygame.map.Item">
+      <point x="17.25" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="edu.franklin.practicum.f15.strategygame.map.MapInfo" target="edu.franklin.practicum.f15.strategygame.map.Item">
+      <point x="18.5" y="-14.0" />
+      <point x="98.0" y="58.0" />
+      <point x="169.58333333333331" y="58.0" />
+      <point x="-18.66666666666667" y="14.0" />
+    </edge>
+    <edge source="edu.franklin.practicum.f15.strategygame.map.MapManager" target="edu.franklin.practicum.f15.strategygame.map.Item">
+      <point x="32.0" y="-14.0" />
+      <point x="193.95238095238096" y="131.0" />
+      <point x="221.39880952380952" y="131.0" />
+      <point x="221.39880952380952" y="58.0" />
+      <point x="206.91666666666669" y="58.0" />
+      <point x="18.666666666666686" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="125.0" y="92.0" />
+  <SelectedNodes>
+    <node>edu.franklin.practicum.f15.strategygame.map.MapInfo</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

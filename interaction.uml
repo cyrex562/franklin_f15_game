@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>edu.franklin.practicum.f15.strategygame.interaction</OriginalElement>
+  <nodes>
+    <node x="146.50000000000003" y="88.0">edu.franklin.practicum.f15.strategygame.interaction.ActionParser</node>
+    <node x="276.0" y="0.0">edu.franklin.practicum.f15.strategygame.interaction.DistanceFormatter</node>
+    <node x="132.00000000000003" y="0.0">edu.franklin.practicum.f15.strategygame.interaction.DirectionFormatter</node>
+    <node x="161.12500000000006" y="244.0">edu.franklin.practicum.f15.strategygame.interaction.ActionQueue</node>
+    <node x="0.0" y="0.0">edu.franklin.practicum.f15.strategygame.interaction.ActionFormatter</node>
+    <node x="126.00000000000003" y="166.0">edu.franklin.practicum.f15.strategygame.interaction.RoboAction</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.franklin.practicum.f15.strategygame.interaction.ActionParser" target="edu.franklin.practicum.f15.strategygame.interaction.DistanceFormatter">
+      <point x="23.75" y="-14.0" />
+      <point x="217.75000000000003" y="58.0" />
+      <point x="306.75" y="58.0" />
+      <point x="-30.75" y="14.0" />
+    </edge>
+    <edge source="edu.franklin.practicum.f15.strategygame.interaction.ActionParser" target="edu.franklin.practicum.f15.strategygame.interaction.RoboAction">
+      <point x="-19.0" y="14.0" />
+      <point x="175.00000000000003" y="141.0" />
+      <point x="170.50000000000003" y="141.0" />
+      <point x="0.0" y="-14.0" />
+    </edge>
+    <edge source="edu.franklin.practicum.f15.strategygame.interaction.ActionQueue" target="edu.franklin.practicum.f15.strategygame.interaction.ActionParser">
+      <point x="11.999999999999972" y="-14.0" />
+      <point x="221.12500000000003" y="219.0" />
+      <point x="225.50000000000003" y="219.0" />
+      <point x="225.50000000000003" y="141.0" />
+      <point x="213.00000000000003" y="141.0" />
+      <point x="19.0" y="14.0" />
+    </edge>
+    <edge source="edu.franklin.practicum.f15.strategygame.interaction.RoboAction" target="edu.franklin.practicum.f15.strategygame.interaction.ActionParser">
+      <point x="-29.666666666666686" y="-14.0" />
+      <point x="140.83333333333334" y="141.0" />
+      <point x="156.00000000000003" y="141.0" />
+      <point x="-38.0" y="14.0" />
+    </edge>
+    <edge source="edu.franklin.practicum.f15.strategygame.interaction.ActionQueue" target="edu.franklin.practicum.f15.strategygame.interaction.RoboAction">
+      <point x="-36.00000000000003" y="-14.0" />
+      <point x="173.12500000000003" y="219.0" />
+      <point x="148.25000000000003" y="219.0" />
+      <point x="-22.25" y="14.0" />
+    </edge>
+    <edge source="edu.franklin.practicum.f15.strategygame.interaction.ActionParser" target="edu.franklin.practicum.f15.strategygame.interaction.DirectionFormatter">
+      <point x="-7.916666666666686" y="-14.0" />
+      <point x="186.08333333333334" y="48.0" />
+      <point x="163.00000000000003" y="48.0" />
+      <point x="-31.0" y="14.0" />
+    </edge>
+    <edge source="edu.franklin.practicum.f15.strategygame.interaction.ActionParser" target="edu.franklin.practicum.f15.strategygame.interaction.ActionFormatter">
+      <point x="-23.75" y="-14.0" />
+      <point x="170.25000000000003" y="58.0" />
+      <point x="84.0" y="58.0" />
+      <point x="28.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="199.5" y="136.0" />
+  <SelectedNodes>
+    <node>edu.franklin.practicum.f15.strategygame.interaction.ActionParser</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

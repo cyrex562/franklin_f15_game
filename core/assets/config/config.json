@@ -1,0 +1,20 @@
+{
+  "graphics": {
+    "window": {
+      "width": 1024,
+      "height": 768
+    },
+    "safeSpace": 4
+  },
+  "gameplay": {
+    "ordersDrainRate": 3,
+    "defaultMapSize": {
+      "width": 15,
+      "height": 15
+    }
+  },
+  "licensing": {
+    "licenseKey": "",
+    "licenseServer": "http://f15slic.franklinpracticum.com/api/license_response.php"
+  }
+}
